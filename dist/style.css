@@ -91,7 +91,7 @@ ul li {
 
 .section-header{
   font-family: "Montserrat", sans-serif;
-  font-size: 1em;
+  font-size: 2em;
   padding:auto;
   font-weight: bold;
   color: black;
@@ -101,7 +101,7 @@ ul li {
   left: 2%;
   /* transform: translate(-50%, -50%); */
   height: auto;
-  width: 40%;
+  width: auto;
   /* margin:5%; */
   filter: blur(10px);
   display: none;

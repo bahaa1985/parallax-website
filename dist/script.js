@@ -7,7 +7,7 @@ const text_elem = document.querySelectorAll(".section-header");
 for (let i = 0; i < text_elem.length; i++) {
   gsap.to(text_elem[i], {
     scrollTrigger: {
-      trigger: containers[i],
+      trigger: containers[i+1],
       start: "top 90%",
       toggleActions: "play reset play reset"
     },
