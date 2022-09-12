@@ -106,7 +106,13 @@ ul li {
   filter: blur(10px);
   display: none;
 }
-
+.beaches-div{
+  display: flex;
+  flex-wrap: wrap;
+}
+.beach-img{
+  width:100%;height: 100%;
+}
 img {
   width: 500px;
   margin: 0 5% 0 5%;
