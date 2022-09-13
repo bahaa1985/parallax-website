@@ -1,8 +1,8 @@
 gsap.registerPlugin(ScrollTrigger);
 
-const containers = document.querySelectorAll(".div-container");
-
+const containers = document.querySelectorAll(".section-container");
 const text_elem = document.querySelectorAll(".section-header");
+
 
 for (let i = 0; i < text_elem.length; i++) {
   gsap.to(text_elem[i], {
@@ -17,3 +17,13 @@ for (let i = 0; i < text_elem.length; i++) {
     yoyo: "true"
   });
 }
+
+const content_div=document.querySelectorAll(".content-div")
+const div_beaches=document.querySelectorAll(".div-beach")
+
+gsap.to('.div-beach',{
+  scrollTrigger:{
+    trigger:'.div-beach',    
+    markers:true,scrub:false,
+    toggleActions: "play pause resume reset" 
+  },scale:1,opacity:1,stagger:0.125,yoyo:'true'})

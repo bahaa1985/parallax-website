@@ -14,8 +14,8 @@ nav img {
   left: 1%;
   top: 1%;
   margin: 5px 0 5px 5px;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   line-height: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -35,7 +35,7 @@ ul li {
   margin-left: 85% !important;
 }
 
-.div-container {
+.section-container {
   position: relative;
   top: 0;
   height: 100vh;
@@ -61,19 +61,17 @@ ul li {
 
 .parallax-home{
   background-image: url("http://kjncairosummer.files.wordpress.com/2011/08/middlecoffinleftviewwallpaper1.jpg");
-  max-height: 100%;
-  width: 100%;
 }
 .parallax1 {
-  /* background-image: url("https://cdn.turkishairlines.com/m/134a825baa0080c9/original/Travel-Guide-of-Sharm-El-Sheikh-via-Turkish-Airlines.jpg"); */
-  max-height: 100%;
-  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1603513492128-ba7bc9b3e143?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1386&q=80");  
+  /* max-height: 100%;
+  width: 100%; */
 }
 
 .parallax2 {
-  /* background-image: url("http://kjncairosummer.files.wordpress.com/2011/08/middlecoffinleftviewwallpaper1.jpg"); */
-  max-height: 100%;
-  width: 100%;
+  background-image: url("https://htmlcolorcodes.com/assets/images/colors/sky-blue-color-solid-background-1920x1080.png");
+  /* max-height: 100%; */
+  /* width: 100%; */
 }
 
 .parallax3 {
@@ -90,33 +88,44 @@ ul li {
 }
 
 .section-header{
-  font-family: "Montserrat", sans-serif;
-  font-size: 2em;
-  padding:auto;
-  font-weight: bold;
-  color: black;
-  background-color: transparent;
-  position: relative;
-  top: 5%;
-  left: 2%;
-  /* transform: translate(-50%, -50%); */
-  height: auto;
-  width: auto;
-  /* margin:5%; */
+  font-family: "Montserrat", sans-serif;font-size: 2em;font-weight: bold;
+  /* padding:auto 25%;   */
+  color: black;background-color: transparent;
+  text-align: center;
+  /* position: relative; 
+  top:2%;left:2%;
+  height: 2%; */
+  margin:2% 2%;
+  width: 96%;
   filter: blur(10px);
   display: none;
 }
-.beaches-div{
+.content-div{
   display: flex;
-  flex-wrap: wrap;
+  justify-content:space-between;  
+  margin:2% 2%;
+  width:96%;
 }
-.beach-img{
-  width:100%;height: 100%;
+.div-beach{
+  transform: scale(0.7,0.7);
+  opacity:0.4
 }
+.content-div div{
+  width:auto;
+}
+
+.content-div address{
+  width: 380px;height: auto;
+  padding: 10px;
+  font-size: x-large;
+  text-align: center;
+  color:deepskyblue
+}
+
 img {
-  width: 500px;
-  margin: 0 5% 0 5%;
-  height: 300px;
+  width: 400px;
+  /* margin: 0 5% 0 5%; */
+  height: 250px;
   border-radius: 5px;
   box-shadow: 4px 4px 4px gray;
 }
