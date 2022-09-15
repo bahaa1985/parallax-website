@@ -51,7 +51,7 @@ ul li {
 .parallax {
   position: relative;
   /* Full height */
-  height: 100%;
+  height: 100vh;
   margin: 0;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -60,27 +60,56 @@ ul li {
   background-size: 100% 100%;
   max-height: 100%;
   width: 100%;
+  
 }
 
 .parallax-home{
   background-image: url("http://kjncairosummer.files.wordpress.com/2011/08/middlecoffinleftviewwallpaper1.jpg");
 }
-.parallax1 {
-  background-image: url("https://images.unsplash.com/photo-1603513492128-ba7bc9b3e143?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1386&q=80");  
+.parallax-hurghada {
+  background-image: url("https://www.sharm-club.com/assets/images/cities/hurghada/hurghada-beaches.jpeg");  
   /* max-height: 100%;
   width: 100%; */
 }
 
-.parallax2 {
-  background-image: url("https://htmlcolorcodes.com/assets/images/colors/sky-blue-color-solid-background-1920x1080.png");
+.parallax-sharm {
+  background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/fc/ed/sharm-el-sheikh.jpg?w=700&h=500&s=1");
   /* max-height: 100%; */
   /* width: 100%; */
 }
 
-.parallax3 {
-  /* background-image: url("https://live.staticflickr.com/4140/4794905061_c61e2f66ec_b.jpg"); */
-  max-height: 100%;
-  width: 100%;
+.parallax-dahab {
+  background-image: url("https://www.harry-nass.com/wp-content/uploads/2018/11/windsurfing-dahab.jpg");
+  /* max-height: 100%;
+  width: 100%; */
+}
+.parallax-ras-sedr{
+  background-image: url("https://www.iksurfmag.com/wp-content/uploads/2017/11/TKB-Lina-Gvazdauskaite-40.jpg");
+}
+.parallax-alam{
+background-image: url("https://www.traveltoegypt.net/front/images/blog/marsa.jpg");
+}
+.parallax-matrouh{
+  background-image: url("https://www.sunpope.com/wp-content/uploads/reiseziele/marsa-matrouh77845.jpg");
+}
+.parallax-abderrahman{
+  background-image: url("https://q-xx.bstatic.com/xdata/images/hotel/840x460/199657435.jpg?k=303d797f3e1c0f375c5a46b55aa820c14cbb5d446101aba9268135a221eea5bf&o=");
+}
+.parallax-marina{
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-m/1280/1d/4e/c9/05/caption.jpg");
+}
+
+
+.beach-title{
+  position: fixed;
+  top:50%;left:50%;
+  transform: translate(-50%,-50%);
+  height: auto;width: 50%;
+  color:black;
+  background-color: white;
+  font-size: 8vh;font-weight:bold;text-align: center;
+  z-index: 1;
+  mix-blend-mode: screen;
 }
 
 .section-home{
@@ -123,10 +152,10 @@ ul li {
   color:deepskyblue
 }
 
-.div-beach{
+/* .div-beach{
   transform: scale(0.7,0.7);
   opacity:0.4
-}
+} */
 
 
 img {
@@ -147,9 +176,11 @@ img {
   img{
     width:200px;height: 100px;
 }
+}
 @media screen and (min-width: 1100px) and (max-width:1299px) {
   img{
     width:220px;height: 110px;
+}
 }
 @media screen and (min-width: 1300px) {
   img{
